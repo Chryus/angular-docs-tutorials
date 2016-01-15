@@ -8,7 +8,7 @@
                      {"name":"jalapeno", "spiciness":"hot hot hot!"},
                      {"name":"habanero", "spiciness":"LAVA HOT!!"}];
     $scope.spice = "habanero";
-  });
+  }]);
 
   myApp.controller('MainController', ['$scope', function($scope) {
     $scope.timeOfDay = 'morning';
