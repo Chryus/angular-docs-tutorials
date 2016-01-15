@@ -5,9 +5,8 @@ describe('testController function', function() {
 
     beforeEach(module('myApp'));
 
-    beforeEach(inject(function($injector, $rootScope, $controller) {
+    beforeEach(inject(function($rootScope, $controller) {
       $scope = $rootScope.$new();
-      var testController = $injector.get('myApp.TestController');
       $controller('TestController', {$scope: $scope});
     }));
 
